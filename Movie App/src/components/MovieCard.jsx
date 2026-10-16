@@ -1,16 +1,12 @@
-import React from 'react';
-
 const MovieCard = ({movie}) => {
-
-    function onFavoriteClick() {
-        alert('Clicked')
+    function onFavoriteClick(){
+        alert("Clicked");
     }
-
-    return <div className='movie-card'>
-        <div className='movie-poster'>
+    return <div className="movie-card">
+        <div className="movie-poster">
             <img src={movie.Poster} alt={movie.Title} />
             <div className="movie-overplay">
-                <button className='favorite-btn' onClick={onFavoriteClick}>🤍⁠</button>
+                <button className="favorite-btn" onClick={onFavoriteClick}>🤍</button>
             </div>
         </div>
         <div className="movie-info">
