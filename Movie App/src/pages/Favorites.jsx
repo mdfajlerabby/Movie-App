@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Favorites = () => {
-    return <div className='favorites-empty'>
-        <h2>No Favorite Movies Yet</h2>
-        <p>Start adding movies to your favorites and they will appear here.</p>
+    return <div className="favorites-empty">
+        <h3>No favorite movies yet.</h3>
+        <p>Start adding movies to your favorites!</p>
     </div>
 };
 
